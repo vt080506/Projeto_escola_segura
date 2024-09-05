@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title> C.E.A.A.T Ouvidoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>C.E.A.A.T Ouvidoria</h1>
+            <nav>
+                <ul>
+                    <li><a href="#denuncia">Denúncia</a></li>
+                    <li><a href="#reclamacao">Reclamação</a></li>
+                    <li><a href="#sugestao">Sugestão</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="denuncia" class="form-section">
+            <div class="container">
+                <h2>Denúncia</h2>
+                <form>
+                    <label for="tipo-denuncia">Tipo de denúncia:</label>
+                    <select id="tipo-denuncia" name="tipo-denuncia">
+                        <option value="assédio">Assédio</option>
+                        <option value="bullying">Bullying</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <label for="descricao-denuncia">Descrição:</label>
+                    <textarea id="descricao-denuncia" name="descricao-denuncia" rows="4" required></textarea>
+                    <button type="submit">Enviar Denúncia</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="reclamacao" class="form-section">
+            <div class="container">
+                <h2>Reclamação</h2>
+                <form>
+                    <label for="tipo-reclamacao">Tipo de reclamação:</label>
+                    <select id="tipo-reclamacao" name="tipo-reclamacao">
+                        <option value="Lixo na sala de aula">Lixo na sala de aula</option>
+                        <option value="tratamento">Modo de Tratamento com Alunos</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <label for="descricao-reclamacao">Descrição:</label>
+                    <textarea id="descricao-reclamacao" name="descricao-reclamacao" rows="4" required></textarea>
+                    <button type="submit">Enviar Reclamação</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="sugestao" class="form-section">
+            <div class="container">
+                <h2>Sugestão</h2>
+                <form>
+                    <label for="tipo-sugestao">Tipo de sugestão:</label>
+                    <select id="tipo-sugestao" name="tipo-sugestao">
+                        <option value="infraestrutura">Infraestrutura</option>
+                        <option value="metodo-ensino">Modo de Ensino</option>
+                        <option value="didatica">Didáticas</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    <label for="descricao-sugestao">Descrição:</label>
+                    <textarea id="descricao-sugestao" name="descricao-sugestao" rows="4" required></textarea>
+                    <button type="submit">Enviar Sugestão</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; C.E.A.A.T OUvidoria 2024.Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
